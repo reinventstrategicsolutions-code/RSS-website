@@ -2373,3 +2373,15 @@ fieldset[disabled] .s-btn {
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
 }
+
+/* Force clean white header */
+.s-header,
+.s-header__navbar {
+  background-color: #ffffff !important;
+}
+
+/* Ensure nav text stays readable */
+.s-header__nav-menu-link,
+.s-header__nav-menu-link:hover {
+  color: #1f2d3d !important;
+}
