@@ -33,6 +33,37 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+        <style>
+  /* Force header to be visible and readable at top */
+  .s-header {
+    background: rgba(255,255,255,0.96) !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+  }
+
+  /* Ensure header stays above hero content */
+  .navbar-fixed-top {
+    z-index: 9999 !important;
+  }
+
+  /* Make hamburger/trigger visible on light header */
+  .s-header__trigger-icon,
+  .s-header__trigger-icon:before,
+  .s-header__trigger-icon:after {
+    background: #222 !important;
+  }
+
+  /* Make the trigger circle visible */
+  .s-header__trigger circle {
+    stroke: #222 !important;
+  }
+
+  /* Optional: make overlay menu links readable */
+  .s-header__nav-menu-link {
+    color: #222 !important;
+  }
+</style>
+
     </head>
     <!-- End Head -->
 
