@@ -2398,3 +2398,22 @@ fieldset[disabled] .s-btn {
     height: auto;
   }
 }
+/* --- Homepage promo image alignment fix --- */
+.promo-image-col {
+  display: flex;
+  align-items: center;      /* vertically align with text */
+  justify-content: center;  /* horizontally center image */
+}
+
+.promo-image-col img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .promo-image-col {
+    margin-top: 30px;
+  }
+}
+
+
