@@ -2385,19 +2385,7 @@ fieldset[disabled] .s-btn {
 .s-header__nav-menu-link:hover {
   color: #1f2d3d !important;
 }
-@media (max-width: 768px) {
-  .g-promo-section__img-right--lg {
-    display: block;
-    width: 100%;
-    margin: 20px 0;
-    text-align: center;
-  }
 
-  .g-promo-section__img-right--lg img {
-    max-width: 100%;
-    height: auto;
-  }
-}
 /* --- Homepage promo image alignment fix --- */
 .promo-image-col {
   display: flex;
@@ -2406,7 +2394,8 @@ fieldset[disabled] .s-btn {
 }
 
 .promo-image-col img {
-  max-width: 100%;
+  max-width: 420px; /* adjust if needed */
+  width: 100%;
   height: auto;
 }
 
