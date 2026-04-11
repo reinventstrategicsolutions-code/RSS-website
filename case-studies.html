@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <style>
+  /* Force header to be visible and readable at top */
+  .s-header {
+    background: rgba(255,255,255,0.96) !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+  }
+
+  /* Ensure header stays above hero content */
+  .navbar-fixed-top {
+    z-index: 9999 !important;
+  }
+
+  /* Make hamburger/trigger visible on light header */
+  .s-header__trigger-icon,
+  .s-header__trigger-icon:before,
+  .s-header__trigger-icon:after {
+    background: #222 !important;
+  }
+
+  /* Make the trigger circle visible */
+  .s-header__trigger circle {
+    stroke: #222 !important;
+  }
+
+  /* Optional: make overlay menu links readable */
+  .s-header__nav-menu-link {
+    color: #222 !important;
+  }
+    body { padding-top: 80px; }
+/* Overlay menu styling */
+  .s-header-bg-overlay {
+    background: rgba(255,255,255,0.98) !important;
+  }
+  .s-header__nav-menu-link {
+    color: #222 !important;
+  }
+  .s-header__nav-menu-link.-is-active {
+    color: #0b57d0 !important;
+  }
+
+  /* Services layout */
+  .services-intro-img {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px auto;
+  }
+
+  .service-card {
+    border-left: 3px solid #0b57d0;
+    padding: 24px 28px;
+    margin-bottom: 24px;
+    background: #f8fafc;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .service-card h3 {
+    margin-bottom: 10px;
+    color: #1a2744;
+  }
+
+  .service-card p {
+    margin-bottom: 0;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 767px) {
+    .services-intro-img {
+      width: 100%;
+    }
+  }
+</style>
+
+<!-- Begin Head -->
+    <head>
+    <!-- Basic -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Reinvent Strategic Solutions | Research, Strategy & Evaluation Consulting</title>
+    <meta name="description" content="Reinvent Strategic Solutions provides research, evaluation, and strategic planning services to organizations and individuals. Expert consulting for learning, decision-making, and meaningful outcomes.">
+    <meta name="keywords" content="strategic consulting, research services, evaluation services, program evaluation, strategic planning, nonprofit consulting, research consulting">
+    <meta name="author" content="Reinvent Strategic Solutions">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Reinvent Strategic Solutions | Research, Strategy & Evaluation">
+    <meta property="og:description" content="Expert research, evaluation, and strategic planning services designed for learning, action, and impact.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/">
+    
+    <!-- Your existing CSS and other links below -->
+    <link rel="stylesheet" href="css/style.css">
+    
+        <!-- Basic -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Reinvent Strategic Solutions - Services</title>
+        <meta name="keywords" content="research, evaluation, strategic planning, program evaluation, consulting, dissertation support" />
+        <meta name="description" content="Reinvent Strategic Solutions provides research, evaluation, and strategic consulting designed for learning, action, and impact.">
+        <meta name="author" content="Reinvent Strategic Solutions">
+
+        <!-- Web Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+
+        <!-- Vendor Styles -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Theme Styles -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    </head>
+    <!-- End Head -->
+
+    <!-- Body -->
+    <body>
+
+        <!--========== HEADER ==========-->
+        <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+            <!-- Navbar -->
+            <div class="s-header__navbar">
+                <div class="s-header__container">
+                    <div class="s-header__navbar-row">
+                        <div class="s-header__navbar-row-col">
+                            <!-- Logo -->
+                            <div class="s-header__logo">
+  <a href="index.html" class="s-header__logo-link">
+    <img
+      src="img/reinvent-logo-dark.png"
+      alt="Reinvent Strategic Solutions"
+      style="height:42px;"
+    >
+  </a>
+</div>
+                            <!-- End Logo -->
+                        </div>
+                        <div class="s-header__navbar-row-col">
+                            <!-- Trigger -->
+                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                                <span class="s-header__trigger-icon"></span>
+                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                                </svg>
+                            </a>
+                            <!-- End Trigger -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Navbar -->
+
+            <!-- Overlay -->
+            <div class="s-header-bg-overlay js__bg-overlay">
+                <!-- Nav -->
+                <nav class="s-header__nav js__scrollbar">
+                    <div class="container-fluid">
+                        <!-- Menu List -->                                
+                        <ul class="list-unstyled s-header__nav-menu">
+                        </ul>
+                        <!-- End Menu List -->
+
+                        <!-- Menu List -->                                
+<ul class="list-unstyled s-header__nav-menu">
+                            <li class="s-header__nav-menu-item">
+                                <a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="index.html">Home</a>
+                            </li>
+                            <li class="s-header__nav-menu-item">
+                                <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a>
+                            </li>
+                            <li class="s-header__nav-menu-item">
+                                <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Services</a>
+                            </li>
+                            <li class="s-header__nav-menu-item">
+                                <!-- <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Events</a> -->
+                            </li>
+                            <li class="s-header__nav-menu-item">
+                                <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="s-header__nav-menu-item">
+                                <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contact</a>
+                            </li>
+</ul>
+
+                        <!-- End Menu List -->
+                    </div>
+                </nav>
+                <!-- End Nav -->
+                
+                <!-- Action -->
+                <ul class="list-inline s-header__action s-header__action--lb">
+                    <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
+                    <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
+                </ul>
+                <!-- End Action -->
+
+                <!-- Action -->
+                <ul class="list-inline s-header__action s-header__action--rb">
+                    <li class="s-header__action-item">
+                        <a class="s-header__action-link" href="#">
+                            <i class="g-padding-r-5--xs ti-facebook"></i>
+                            <span class="g-display-none">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="s-header__action-item">
+                        <a class="s-header__action-link" href="#">
+                            <i class="g-padding-r-5--xs ti-twitter"></i>
+                            <span class="g-display-none">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="s-header__action-item">
+                        <a class="s-header__action-link" href="#">
+                            <i class="g-padding-r-5--xs ti-instagram"></i>
+                            <span class="g-display-none">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Action -->
+            </div>
+            <!-- End Overlay -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== PROMO BLOCK (same banner as About page) ==========-->
+        <div class="g-fullheight--md js__parallax-window" style="background: url(img/1920x1080/02.jpg) 50% 0 no-repeat fixed;">
+            <div class="g-container--md g-text-center--xs g-ver-center--md g-padding-y-150--xs g-padding-y-0--md">
+                <div class="g-margin-b-60--xs" style="margin-top:100px;">
+                    <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white g-letter-spacing--1">Services</h1>
+                </div>
+            </div>
+        </div>
+        <!--========== END PROMO BLOCK ==========-->
+
+        <!-- Spacer between banner and content -->
+<div class="g-padding-y-30--xs g-padding-y-40--sm"></div>
+
+        <!--========== PAGE CONTENT ==========-->
+
+        <!-- What We Offer Intro -->
+        <div class="container g-padding-t-60--xs g-padding-b-15--xs g-padding-t-80--sm g-padding-b-25--sm">
+            <div class="g-text-center--xs g-margin-b-20--xs">
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">What We Offer</p>
+            </div>
+
+<div class="center-block g-hor-divider__solid g-width-40--xs g-margin-b-10--xs"></div>
+
+<!-- Proportionate centered image -->
+<div class="g-text-center--xs" style="display:none;">
+    <img class="services-intro-img" src="img/970x970/03.jpg" alt="Reinvent Strategic Solutions">
+</div>
+</div>
+<!-- End What We Offer Intro -->
+
+<!-- Our Services -->
+<div class="g-bg-color--sky-light">
+            <div class="container g-padding-t-25--xs g-padding-b-40--xs g-padding-t-40--sm g-padding-b-60--sm">
+                <div class="g-text-center--xs g-margin-b-20--xs">
+                    <h2 class="g-font-size-32--xs g-font-size-36--md">Our Services</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="service-card">
+                            <h3 class="g-font-size-18--xs">Research &amp; Evaluation</h3>
+                            <p class="g-font-size-16--xs">
+                                Evaluation and research design that produces clear, usable insights for learning,
+                                improvement, and decision-making.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <h3 class="g-font-size-18--xs">Strategic Planning &amp; Program Development</h3>
+                            <p class="g-font-size-16--xs">
+                                Clarify goals, align work to outcomes, and strengthen programs with practical frameworks
+                                grounded in your context and capacity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="service-card">
+                            <h3 class="g-font-size-18--xs">Academic &amp; Dissertation Support</h3>
+                            <p class="g-font-size-16--xs">
+                                Methodology, proposal and IRB preparation, analysis support, and structured writing guidance
+                                for doctoral students and practitioner-scholars.
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <h3 class="g-font-size-18--xs">Advisory &amp; Consultation</h3>
+                            <p class="g-font-size-16--xs">
+                                Focused guidance for complex decisions—ideal for targeted questions, planning sessions,
+                                or research design direction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+<!-- FAQ LINK TO ADD ABOVE "REQUEST A CONSULTATION" BUTTON -->
+
+<div class="g-text-center--xs g-margin-b-25--xs g-padding-y-20--xs" style="background-color: #f8f9fa; border-radius: 8px;">
+    <p class="g-font-size-17--xs g-margin-b-0--xs">
+        <strong>Questions about our services?</strong><br>
+        <a href="faq.html" class="g-color--primary g-font-weight--600">Check out our FAQs →</a>
+    </p>
+</div>
+                
+                <!-- CTA Button -->
+                <div class="g-text-center--xs g-margin-t-60--xs g-margin-b-80--xs">
+                    <a href="contacts.html"
+                       class="s-btn s-btn--lg s-btn--primary-bg g-radius--50 g-padding-x-80--xs g-padding-y-15--xs"
+                       style="font-size:22px;">
+                        Request a Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Services -->
+
+        <!-- Counter - REMOVED -->
+
+        <!-- Portfolio images - REMOVED -->
+
+        <!-- Plan - HIDDEN (may use later) -->
+        <div class="g-bg-color--sky-light" style="display:none;">
+            <div class="container g-padding-y-80--xs g-padding-y-125--xsm">
+                <div class="g-text-center--xs g-margin-b-80--xs">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Plan</p>
+                    <h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Plan</h2>
+                </div>
+
+                <div class="row g-row-col--5">
+                    <!-- Plan -->
+                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Individual</h3>
+                                <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Mobile-Optimized Website</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Powerful Documentation</li>
+                                </ul>
+                                <div class="g-margin-b-40--xs">
+                                    <span class="s-plan-v1__price-mark">$</span>
+                                    <span class="s-plan-v1__price-tag">39</span>
+                                </div>
+                                <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Signup</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Plan -->
+
+                    <!-- Plan -->
+                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-package"></i>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Team</h3>
+                                <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Mobile-Optimized Website</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Powerful Documentation</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Sell Unlimited Products</li>
+                                </ul>
+                                <div class="g-margin-b-40--xs">
+                                    <span class="s-plan-v1__price-mark">$</span>
+                                    <span class="s-plan-v1__price-tag">59</span>
+                                </div>
+                                <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Signup</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Plan -->
+                    
+                    <!-- Plan -->
+                    <div class="col-md-4">
+                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-gift"></i>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Enterprise</h3>
+                                <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Mobile-Optimized Website</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Powerful Documentation</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Sell Unlimited Products</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> 24/7 Customer Support</li>
+                                </ul>
+                                <div class="g-margin-b-40--xs">
+                                    <span class="s-plan-v1__price-mark">$</span>
+                                    <span class="s-plan-v1__price-tag">79</span>
+                                </div>
+                                <button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Signup</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Plan -->
+                </div>
+            </div>
+        </div>
+        <!-- End Plan -->
+
+        <!-- Testimonials - HIDDEN (may use later) -->
+        <div class="g-hor-divider__dashed--sky-light g-padding-y-80--xs g-padding-y-125--xsm" style="display:none;">
+            <div class="container g-text-center--xs">
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-50--xs">Testimonials</p>
+                <div class="s-swiper js__swiper-testimonials">
+                    <div class="swiper-wrapper g-margin-b-50--xs">
+                        <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
+                            <div class="g-padding-x-20--xs g-padding-x-50--lg">
+                                <img class="g-width-70--xs g-height-70--xs g-hor-border-4__solid--white g-box-shadow__dark-lightest-v4 g-radius--circle g-margin-b-30--xs" src="img/400x400/04.jpg" alt="Image">
+                                <div class="g-margin-b-40--xs">
+                                    <p class="g-font-size-22--xs g-font-size-28--sm g-color--heading"><i>" I have purchased many great templates over the years but this product and this company have taken it to the next level. Exceptional customizability. "</i></p>
+                                </div>
+                                <div class="center-block g-hor-divider__solid--heading-light g-width-100--xs g-margin-b-30--xs"></div>
+                                <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--primary g-margin-b-5--xs">Jake Richardson / Google</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
+                            <div class="g-padding-x-20--xs g-padding-x-50--lg">
+                                <img class="g-width-70--xs g-height-70--xs g-hor-border-4__solid--white g-box-shadow__dark-lightest-v4 g-radius--circle g-margin-b-30--xs" src="img/400x400/05.jpg" alt="Image">
+                                <div class="g-margin-b-40--xs">
+                                    <p class="g-font-size-22--xs g-font-size-28--sm g-color--heading"><i>" I have purchased many great templates over the years but this product and this company have taken it to the next level. Exceptional customizability. "</i></p>
+                                </div>
+                                <div class="center-block g-hor-divider__solid--heading-light g-width-100--xs g-margin-b-30--xs"></div>
+                                <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--primary g-margin-b-5--xs">Anna Kusaikina / Apple</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
+                            <div class="g-padding-x-20--xs g-padding-x-50--lg">
+                                <img class="g-width-70--xs g-height-70--xs g-hor-border-4__solid--white g-box-shadow__dark-lightest-v4 g-radius--circle g-margin-b-30--xs" src="img/400x400/06.jpg" alt="Image">
+                                <div class="g-margin-b-40--xs">
+                                    <p class="g-font-size-22--xs g-font-size-28--sm g-color--heading"><i>" I have purchased many great templates over the years but this product and this company have taken it to the next level. Exceptional customizability. "</i></p>
+                                </div>
+                                <div class="center-block g-hor-divider__solid--heading-light g-width-100--xs g-margin-b-30--xs"></div>
+                                <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--primary g-margin-b-5--xs">Lucas Richardson / Microsoft</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="g-font-size-22--xs g-color--heading js__swiper-fraction"></div>
+                    <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--right s-icon s-icon--md s-icon--primary-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+                    <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--left s-icon s-icon--md s-icon--primary-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonials -->
+
+        <!-- Clients logos - REMOVED -->
+
+        <!--========== END PAGE CONTENT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="g-bg-color--dark">
+            <!-- Links -->
+            <div class="g-hor-divider__dashed--white-opacity-lightest">
+                <div class="container g-padding-y-80--xs">
+                    <div class="row">
+                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="index.html">Home</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="about.html">About</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="services.html">Services</a></li>
+                                <li style="display:none;"><a class="g-font-size-15--xs g-color--white-opacity" href="events.html">Events</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="contacts.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md" style="display:none;">
+                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Twitter</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Facebook</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Instagram</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">YouTube</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
+                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Subscribe to Our Newsletter</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Privacy Policy</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
+                            <h3 class="g-font-size-18--xs g-color--white">Reinvent Strategic Solutions</h3>
+                            <p class="g-color--white-opacity">Research, evaluation, and strategic consulting designed for learning, action, and impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright - Megakit branding REMOVED -->
+            <div class="container g-padding-y-50--xs">
+    <div class="row">
+        <div class="col-xs-6">
+            <a href="index.html">
+                <img class="g-width-100--xs g-height-auto--xs" src="img/reinvent-logo-dark.png" alt="Reinvent Strategic Solutions">
+            </a>
+        </div>
+        <div class="col-xs-6 g-text-right--xs">
+            <p class="g-font-size-14--xs g-margin-b-5--xs g-color--white-opacity-light">
+                © 2025 Reinvent Strategic Solutions. All rights reserved.
+            </p>
+            <p class="g-font-size-13--xs g-margin-b-0--xs">
+                <a href="privacy.html" class="g-color--white-opacity-light" style="text-decoration: none;">Privacy Policy</a>
+                <span class="g-color--white-opacity-light"> | </span>
+                <a href="terms.html" class="g-color--white-opacity-light" style="text-decoration: none;">Terms of Service</a>
+            </p>
+        </div>
+    </div>
+</div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+        <!-- Vendor -->
+        <script type="text/javascript" src="vendor/jquery.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+        <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
+        <script type="text/javascript" src="vendor/vidbg.min.js"></script>
+        <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+        <script type="text/javascript" src="vendor/waypoint.min.js"></script>
+        <script type="text/javascript" src="vendor/counterup.min.js"></script>
+        <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
+        <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+
+        <!-- General Components and Settings -->
+        <script type="text/javascript" src="js/global.min.js"></script>
+        <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
+        <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
+        <script type="text/javascript" src="js/components/portfolio-4-col-slider.min.js"></script>
+        <script type="text/javascript" src="js/components/counter.min.js"></script>
+        <script type="text/javascript" src="js/components/swiper.min.js"></script>
+        <script type="text/javascript" src="js/components/wow.min.js"></script>
+        <!--========== END JAVASCRIPTS ==========-->
+
+    </body>
+    <!-- End Body -->
+</html>
